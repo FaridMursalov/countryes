@@ -1,0 +1,58 @@
+.countryDetails{
+    @media screen and (min-width:720px) {
+        flex-direction: row;
+        
+    }
+    width: 90vw;
+    margin: auto;
+    padding-top: 30px;
+    
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.detialInfo{
+ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    li{
+        span{
+            font-weight: 100;
+        }
+        font-weight: 600;
+    }
+    padding-top: 20px  ;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.img{
+    width: 350px;
+    height: 250px;
+}
+.borders{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
